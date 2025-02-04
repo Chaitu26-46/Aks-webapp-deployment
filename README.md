@@ -13,7 +13,7 @@ The solution consists of the following components:
 
 1. Azure Kubernetes Service (AKS): Hosts the Kubernetes cluster.
 
-2. Web Application: A simple static web application containerized using Docker.
+2. Web Application: A simple static web application containerized using Docker.(refered as index.html,present in Docker folder )
 
 3. Prometheus: A monitoring tool to collect and visualize metrics.
 
