@@ -59,7 +59,7 @@ cd ../docker
 ```bash
 docker build -t <your-dockerhub-username>/webapp:latest .
 ```
-Replace the *<your-dockerhub-username>* with your Docker Hub user name
+Replace the **your-dockerhub-username** with your Docker Hub user name
 3. Push the Docker image to docker hub
 ```bash
 docker push <your-dockerhub-username>/webapp:latest
