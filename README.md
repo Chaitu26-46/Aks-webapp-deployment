@@ -60,6 +60,8 @@ cd ../docker
 docker build -t <your-dockerhub-username>/webapp:latest .
 ```
 Replace the **your-dockerhub-username** with your Docker Hub user name
+```bash
+```
 3. Push the Docker image to docker hub
 ```bash
 docker push <your-dockerhub-username>/webapp:latest
@@ -89,6 +91,7 @@ kubectl apply -f prometheus-config/prometheus-service.yaml
 ```bash
 kubectl get pods -l app=prometheus
 kubectl get svc prometheus-service
+```
 
 ### 6. Access the Application
 Get the external IP of the web application:
