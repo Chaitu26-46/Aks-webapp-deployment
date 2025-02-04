@@ -16,4 +16,7 @@ cd terraform
 terraform init
 terraform apply
 
-### 2. Configure Kubectl
+
+2. Configure kubectl
+```bash
+az aks get-credentials --resource-group aks-webapp-rg --name aks-webapp-cluster
