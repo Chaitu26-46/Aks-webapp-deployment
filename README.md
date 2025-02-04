@@ -22,11 +22,23 @@ The solution consists of the following components:
 ## Steps to Deploy
 
 ### 1. Provision Infrastructure with Terraform
+1. Navigate to the *Terraform* directory
 ```bash
 cd terraform
+```
+2. Initialize Terraform
+```bash
 terraform init
+```
+3. Review the Terraform plan
+```bash
+terraform plan
+```
+4. Apply the Terraform configuration to provision AKs cluster
+```bash
 terraform apply
 ```
+This will create AKS cluster 
 
 ### 2. Configure kubectl
 1. Configure *Kubectl* to connect to the AKS Cluster
